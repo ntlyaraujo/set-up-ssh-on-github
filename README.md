@@ -31,11 +31,8 @@ ssh-add ~/.ssh/id_rsa.pub
 ```
 
 ## Add the SSH key to your GitHub account
-```
-ssh-add ~/.ssh/id_rsa.pub
-```
 At Github, click on **Settings** >> **SSH and GPG Keys** >> **New SSH key** >> **Add SSH key**
-
+Paste the key you copy before
 ## Clone the repo
 Copy the SSH link to clone.
 ```
