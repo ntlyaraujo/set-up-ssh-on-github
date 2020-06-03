@@ -27,7 +27,7 @@ clip < ~/.ssh/id_rsa.pub
 
 ## Adding your SSH key to the ssh-agent
 ```
-ssh-add ~/.ssh/id_rsa.pub
+ssh-add ~/.ssh/id_rsa
 ```
 
 ## Add the SSH key to your GitHub account
