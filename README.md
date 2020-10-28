@@ -34,6 +34,21 @@ ssh-add ~/.ssh/id_rsa
 ## Add the SSH key to your GitHub account
 At Github, click on **Settings** >> **SSH and GPG Keys** >> **New SSH key** >> **Add SSH key**
 and paste the key you copy before
+
+## Add the public key to your Account settings
+From Bitbucket, choose Personal settings from your avatar in the lower left.
+
+Click SSH keys. If you've already added keys, you'll see them on this page.
+
+Open your .ssh/id_rsa.pub file (or whatever you named the public key file) and copy its contents.
+You may see an email address on the last line. It doesn't matter whether or not you include the email address.
+
+From Bitbucket, click Add key.
+
+Enter a Label for your new key, for example, Default public key.
+
+Paste the copied public key into the SSH Key field.
+
 ## Clone the repo
 Copy the SSH link to clone.
 ```
